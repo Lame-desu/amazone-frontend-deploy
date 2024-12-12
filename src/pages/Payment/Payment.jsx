@@ -6,7 +6,7 @@ import ProductCard from "../../Components/Product/ProductCard";
 // import { useStripe } from '@stripe/react-stripe-js'
 import { useStripe, useElements, CardElement } from "@stripe/react-stripe-js";
 import CurrencyFormat from "../../Components/CurrencyFormat/CurrencyFormat";
-import { axiosInstance } from "../../Api/axios";
+import { axiosInstance } from "../../API/axios";
 import { ClipLoader } from "react-spinners";
 import { db } from "../../Utility/firebase";
 import { useNavigate } from "react-router-dom";
